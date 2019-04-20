@@ -1,0 +1,49 @@
+_:B229d079fX3A16918509a69X3AX2D7ff0 <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7fef .
+_:B229d079fX3A16918509a69X3AX2D7ffd <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.platform.accountcontrolpanel.UserBundlePermission \"{username}\" \"\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://purl.org/dc/elements/1.1/title> "BasePermissionsRole"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fed <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+_:B229d079fX3A16918509a69X3AX2D7ffb <http://clerezza.org/2009/08/platform#userName> "anonymous"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fef <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.platform.accountcontrolpanel.AccountControlPanelAppPermission \"{username}\" \"\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fff <http://purl.org/dc/elements/1.1/title> "CommunityUser"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://clerezza.org/2009/08/platform#Instance> .
+_:B229d079fX3A16918509a69X3AX2D7ff6 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(java.lang.RuntimePermission \"accessDeclaredMembers\" \"\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff3 .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff1 .
+_:B229d079fX3A16918509a69X3AX2D7feb <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(java.security.AllPermission \"\" \"\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff7 .
+_:B229d079fX3A16918509a69X3AX2D7ff3 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.rdf.core.access.security.TcPermission \"urn:x-localinstance:/content.graph\" \"read\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff5 .
+_:B229d079fX3A16918509a69X3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://clerezza.org/2008/10/permission#Role> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff9 .
+_:B229d079fX3A16918509a69X3AX2D7ff4 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.osgi.framework.AdminPermission \"*\" \"metadata\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fff <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ffe .
+_:B229d079fX3A16918509a69X3AX2D7fec <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+_:B229d079fX3A16918509a69X3AX2D7ff0 <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7fee .
+_:B229d079fX3A16918509a69X3AX2D7fec <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7feb .
+_:B229d079fX3A16918509a69X3AX2D7fec <http://clerezza.org/2009/08/platform#userName> "admin"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://clerezza.org/2008/10/permission#BaseRole> .
+_:B229d079fX3A16918509a69X3AX2D7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+_:B229d079fX3A16918509a69X3AX2D7ff0 <http://purl.org/dc/elements/1.1/title> "DefaultRole"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ff8 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.osgi.framework.AdminPermission \"*\" \"resource\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ff7 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.osgi.framework.ServicePermission \"*\" \"get\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fec <http://xmlns.com/foaf/0.1/mbox> <mailto:noreply@clerezza.org> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://www.w3.org/2000/01/rdf-schema#comment> "Every user implicitely has this role as this is a perm:BaseRole"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ff0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://clerezza.org/2008/10/permission#Role> .
+_:B229d079fX3A16918509a69X3AX2D7ffe <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.rdf.core.access.security.TcPermission \"urn:x-localinstance:/user/{username}/*\" \"readwrite\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://clerezza.org/2008/10/permission#Role> .
+_:B229d079fX3A16918509a69X3AX2D7ffb <http://rdfs.org/sioc/ns#has_function> _:B229d079fX3A16918509a69X3AX2D7ffa .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff2 .
+_:B229d079fX3A16918509a69X3AX2D7fed <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<urn:x-localinstance:/typePriorityList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://clerezza.org/2009/07/script#ScriptGeneratedResource> .
+_:B229d079fX3A16918509a69X3AX2D7fec <http://clerezza.org/2008/10/permission#passwordSha1> "d033e22ae348aeb5660fc2140aec35850c4da997"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff6 .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff4 .
+_:B229d079fX3A16918509a69X3AX2D7ff2 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.rdf.core.access.security.TcPermission \"urn:x-localinstance:/documentation.graph\" \"read\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ff5 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(java.lang.RuntimePermission \"getClassLoader\" \"\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+<urn:x-localinstance:/typePriorityList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B229d079fX3A16918509a69X3AX2D7fed .
+_:B229d079fX3A16918509a69X3AX2D7ffa <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ff8 .
+_:B229d079fX3A16918509a69X3AX2D7ff9 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(java.util.PropertyPermission \"*\" \"read\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fee <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.platform.accountcontrolpanel.ChangePasswordPermission \"{username}\" \"\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7ff1 <http://clerezza.org/2008/10/permission#javaPermissionEntry> "(org.apache.clerezza.rdf.core.access.security.TcPermission \"urn:x-localinstance:/config.graph\" \"read\")"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:B229d079fX3A16918509a69X3AX2D7fff <http://clerezza.org/2008/10/permission#hasPermission> _:B229d079fX3A16918509a69X3AX2D7ffd .
+_:B229d079fX3A16918509a69X3AX2D7ff0 <http://www.w3.org/2000/01/rdf-schema#comment> "A role regular users typically have"^^<http://www.w3.org/2001/XMLSchema#string> .

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<bundles>
+  <!-- logback logging is used by Sesame -->
+  <startLevel level="10">
+    <bundle>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>0.9.30</version> <!-- sesame expects version < 1.0.0 -->
+    </bundle>
+    <bundle>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>0.9.30</version> <!-- sesame expects version < 1.0.0 -->
+    </bundle>
+  </startLevel>
+  
+  <!-- additional commons libs required by Sesmae -->
+  <startLevel>
+    <bundle> <!-- opencsv version 2.1 -->
+      <groupId>org.ow2.bundles</groupId>
+      <artifactId>ow2-bundles-externals-opencsv</artifactId>
+      <version>1.0.36</version>
+    </bundle>
+    <bundle>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${jackson2-version}</version>
+    </bundle>
+  </startLevel>
+  
+  <!-- Sesame OSGI environment -->
+  <startLevel level="26">
+    <bundle>
+      <groupId>org.openrdf.sesame</groupId>
+      <artifactId>sesame-runtime-osgi</artifactId>
+      <version>${sesame-version}</version>
+    </bundle>
+  </startLevel>
+
+  <!-- Stanbol Entityhub infrastructure and required libraries-->
+  <startLevel level="30">
+    <bundle>
+      <groupId>org.apache.stanbol</groupId>
+      <artifactId>org.apache.stanbol.entityhub.model.sesame</artifactId>
+      <version>1.0.1-SNAPSHOT</version>
+    </bundle>
+    <bundle>
+      <groupId>org.apache.stanbol</groupId>
+      <artifactId>org.apache.stanbol.entityhub.query.sesame</artifactId>
+      <version>1.0.1-SNAPSHOT</version>
+    </bundle>
+    <bundle>
+      <groupId>org.apache.stanbol</groupId>
+      <artifactId>org.apache.stanbol.entityhub.yard.sesame</artifactId>
+      <version>1.0.1-SNAPSHOT</version>
+    </bundle>
+  </startLevel>
+  
+  <!-- Web Fragment -->
+  <startLevel level="31">
+    <bundle>
+      <groupId>org.apache.stanbol</groupId>
+      <artifactId>org.apache.stanbol.entityhub.web.sesame</artifactId>
+      <version>1.0.1-SNAPSHOT</version>
+    </bundle>
+  </startLevel>  
+</bundles>  

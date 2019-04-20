@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<solr persistent="false">
+  <cores adminPath="/admin/cores">
+    <core loadOnStartup="true" schema="schema.xml" transient="false" dataDir="data/" name="km" instanceDir="/Users/abhimanyu/Downloads/stanbol/km_for_stanbol/indexing/destination/indexes/default/km/" config="solrconfig.xml"/>
+  </cores>
+</solr>

@@ -1,0 +1,10 @@
+#Sat Apr 13 15:39:27 HKT 2019
+Description=short description (http\://www.example.org)
+Synchronized=true
+Server-Name=default
+Name=SolrIndex for km
+Index-Archive=km.solrindex.zip
+Directory=km-2019.04.13
+Index-Name=km
+State=ACTIVE
+Archive=km.solrindex.zip
